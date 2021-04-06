@@ -1,0 +1,7 @@
+// Enables component-scoped and route-scoped pod-styles
+// See https://www.emberobserver.com/addons/ember-component-css
+@import "pod-styles";
+
+.navbar-brand {
+  color: red;
+}

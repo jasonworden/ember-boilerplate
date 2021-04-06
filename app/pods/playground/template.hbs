@@ -1,0 +1,9 @@
+<div class="alert alert-primary">
+  <button class="btn btn-primary" onclick={{perform this.log "Why, hello!"}}>Say hi from controller task!</button>
+</div>
+
+<Dummy::BasicName @firstName={{@model.firstName}} @lastName={{@model.lastName}} />
+<Dummy::BasicName @firstName={{this.firstName}} @lastName={{this.lastName}} />
+<Dummy::Complex />
+
+{{outlet}}

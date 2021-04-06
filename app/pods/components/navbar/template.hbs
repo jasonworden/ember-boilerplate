@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <LinkTo
+          class="navbar-brand"
+          @route="index"
+  >
+    Jason's Ember Boilerplate
+  </LinkTo>
+
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <LinkTo
+                class="nav-link"
+                @route="index"
+        >
+          Home
+        </LinkTo>
+      </li>
+      <li class="nav-item">
+        <LinkTo
+                class="nav-link"
+                @route="playground"
+        >
+          Playground
+        </LinkTo>
+      </li>
+    </ul>
+  </div>
+</nav>
