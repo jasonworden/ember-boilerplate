@@ -16,7 +16,7 @@
     "lint:hbs": "npx ember-template-lint .",
     "lint:js": "npx eslint .",
     "start": "npx ember serve",
-    "test": "npx ember test --server --query '&nolint&dockcontainer'",
+    "test": "npx ember test --server --query '&nolint&dockcontainer'"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.1.0",
