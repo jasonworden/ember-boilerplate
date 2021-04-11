@@ -1,0 +1,23 @@
+// See Bootstrap docs at https://getbootstrap.com/docs/4.6
+// This file imports the desired parts of Bootstrap SCSS. No JS from Bootstrap is included.
+
+@import "node_modules/bootstrap/scss/functions"; // Required
+@import "node_modules/bootstrap/scss/variables"; // Required
+@import "node_modules/bootstrap/scss/mixins"; // Required
+@import "node_modules/bootstrap/scss/root"; // Required
+@import "node_modules/bootstrap/scss/reboot"; // Required
+
+@import "node_modules/bootstrap/scss/type";
+
+@import "node_modules/bootstrap/scss/grid";
+//@import "node_modules/bootstrap/scss/bootstrap-grid";
+
+//@import "node_modules/bootstrap/scss/forms";
+
+@import "node_modules/bootstrap/scss/nav";
+@import "node_modules/bootstrap/scss/navbar"; // Requires nav
+
+@import "node_modules/bootstrap/scss/alert";
+
+@import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/utilities";
