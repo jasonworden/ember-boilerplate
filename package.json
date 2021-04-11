@@ -11,11 +11,12 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
-    "lint:hbs": "ember-template-lint .",
-    "lint:js": "eslint .",
-    "start": "ember serve",
-    "test": "ember test"
+    "build": "npx ember build",
+    "kill": "kill -9 $(lsof -t -i:4200)",
+    "lint:hbs": "npx ember-template-lint .",
+    "lint:js": "npx eslint .",
+    "start": "npx ember serve",
+    "test": "npx ember test --server --query '&nolint&dockcontainer'",
   },
   "devDependencies": {
     "@ember/optional-features": "^1.1.0",
