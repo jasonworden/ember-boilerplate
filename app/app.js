@@ -7,6 +7,11 @@ export default class App extends Application {
   modulePrefix = config.modulePrefix;
   podModulePrefix = config.podModulePrefix;
   Resolver = Resolver;
+
+  // from add-ons:
+  sassOptions = {
+    includePaths: ['node_modules/bootstrap/scss'],
+  };
 }
 
 loadInitializers(App, config.modulePrefix);
